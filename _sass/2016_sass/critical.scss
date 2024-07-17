@@ -1,0 +1,31 @@
+/* _sass/2016_css/critical.scss */
+
+/* 웹 페이지의 처음 로딩 속도를 최적화하기 위해 중요한 스타일만 포함하는 파일*/
+
+/* 예시 */
+body {
+  font-family: 'Pretendard-Regular';
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.intro-text {
+  padding: 50px;
+  text-align: center;
+}
+
+.intro-heading {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.intro-lead-in {
+  font-size: 1.5em;
+}

@@ -1,3 +1,5 @@
+@import 'fonts';
+
 /*Disable image drag*/
 img {
   -moz-user-select: none;
@@ -15,7 +17,7 @@ img {
 }
 
 body, textarea {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Pretendard-Regular';
   margin: 0;
 }
 
@@ -26,9 +28,9 @@ body, textarea {
     width: 250px; 
     height: 250px;
   }
-  /*set all font to roboto*/
+  /*set all font to Pretendard-Regular*/
   h1, h2, h3, p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Pretendard-Regular';
     font-weight: 100;
     margin: 0;
   }
@@ -63,7 +65,7 @@ body, textarea {
 
 /*backgound picture in home*/
 .home-background {
-  background: url('/css/2016_style/img/KLCC_bg.jpg') no-repeat center center;
+  background: url('/css/2016_style/img/space_bg.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
